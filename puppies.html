@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Available Puppies — Fawnfield Boxers</title>
+<meta name="description" content="Three Boxer litters currently available for adoption, sorted by parents and age.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand">Fawnfield <span>Boxers</span></a>
+    <nav class="main-nav">
+      <a href="index.html#temperament">Why a Boxer</a>
+      <a href="index.html#health">Health &amp; Care</a>
+      <a href="index.html#testimonials">Testimonials</a>
+      <a href="index.html#faq">FAQ</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+    <a class="btn btn-small btn-primary is-active" href="puppies.html" aria-current="page">Available Puppies</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-intro">
+    <div class="wrap">
+      <p class="hero-kicker">Three litters, three ages</p>
+      <h1>Available puppies</h1>
+      <p class="page-intro-lede">Pick a litter below to jump straight to it, or scroll through all three. Each puppy's card shows their age, weight, and current status — Adopt Me sends us a note with their name already filled in.</p>
+    </div>
+  </section>
+
+  <section class="litter-selector">
+    <div class="wrap litter-selector-grid">
+      <a href="#litter-axel-chloe" class="litter-select-card">
+        <div class="parent-photos">
+          <img src="assets/male1.png" alt="Axel, the father" loading="lazy">
+          <img src="assets/female2.png" alt="Chloe, the mother" loading="lazy">
+        </div>
+        <h3>Axel &amp; Chloe's Litter</h3>
+        <p class="litter-select-meta">10 weeks old · Fawn &amp; brindle</p>
+        <span class="litter-select-link">View litter →</span>
+      </a>
+      <a href="#litter-duke-ruby" class="litter-select-card">
+        <div class="parent-photos">
+          <img src="assets/male3.jpg" alt="Duke, the father" loading="lazy">
+          <img src="assets/mom2.png" alt="Ruby, the mother" loading="lazy">
+        </div>
+        <h3>Duke &amp; Ruby's Litter</h3>
+        <p class="litter-select-meta">12 weeks old · Brindle &amp; fawn</p>
+        <span class="litter-select-link">View litter →</span>
+      </a>
+      <a href="#litter-max-daisy" class="litter-select-card">
+        <div class="parent-photos">
+          <img src="assets/male2.jpg" alt="Max, the father" loading="lazy">
+          <img src="assets/female1.jpg" alt="Daisy, the mother" loading="lazy">
+        </div>
+        <h3>Max &amp; Daisy's Litter</h3>
+        <p class="litter-select-meta">5 months old · Brindle &amp; fawn</p>
+        <span class="litter-select-link">View litter →</span>
+      </a>
+    </div>
+  </section>
+
+  <div class="wrap filter-bar">
+    <select id="filterLitter" aria-label="Filter by litter">
+      <option value="all">All litters</option>
+      <option value="axel-chloe">Axel &amp; Chloe (10 weeks)</option>
+      <option value="duke-ruby">Duke &amp; Ruby (12 weeks)</option>
+      <option value="max-daisy">Max &amp; Daisy (5 months)</option>
+    </select>
+    <select id="filterGender" aria-label="Filter by gender">
+      <option value="all">All genders</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+    <select id="filterStatus" aria-label="Filter by status">
+      <option value="all">All statuses</option>
+      <option value="available">Available</option>
+      <option value="reserved">Reserved</option>
+      <option value="sold">No longer available</option>
+    </select>
+    <button id="clearFilters" class="btn btn-ghost btn-small" type="button">Clear filters</button>
+  </div>
+
+  <section id="litter-axel-chloe" class="litter-section">
+    <div class="wrap">
+      <div class="litter-heading">
+        <div class="litter-parents">
+          <img src="assets/male1.png" alt="Axel, the father" loading="lazy">
+          <img src="assets/female2.png" alt="Chloe, the mother" loading="lazy">
+        </div>
+        <div>
+          <h2>Axel &amp; Chloe's Litter</h2>
+          <p>10 weeks old · Fawn &amp; brindle · First round of shots complete</p>
+        </div>
+      </div>
+
+      <div class="puppy-grid">
+
+        <article class="puppy-card" data-litter="axel-chloe" data-gender="male" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/box4.png" alt="Rocky, a fawn Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Rocky</h3><span class="puppy-price">$2,200</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 10 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 14 lbs</p>
+            <p class="puppy-desc">Fawn · Confident, playful, great with kids</p>
+            <p class="puppy-vax">Up to date (1st round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Rocky">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="axel-chloe" data-gender="female" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/box6.jpg" alt="Bella, a fawn Boxer puppy with a white chest" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Bella</h3><span class="puppy-price">$2,200</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 10 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Female &nbsp;·&nbsp; <strong>Weight:</strong> 12 lbs</p>
+            <p class="puppy-desc">Fawn with white chest · Affectionate, quick learner</p>
+            <p class="puppy-vax">Up to date (1st round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Bella">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="axel-chloe" data-gender="male" data-status="reserved">
+          <div class="puppy-media">
+            <span class="badge badge-reserved">Reserved</span>
+            <img src="assets/box8.png" alt="Diesel, a brindle Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Diesel</h3><span class="puppy-price">$2,400</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 10 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 15 lbs</p>
+            <p class="puppy-desc">Brindle · Bold, alert, first to the food bowl</p>
+            <p class="puppy-vax">Up to date (1st round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Diesel">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card status-sold" data-litter="axel-chloe" data-gender="female" data-status="sold">
+          <div class="puppy-media">
+            <span class="badge badge-sold">Sold</span>
+            <img src="assets/box3.png" alt="Maple, a fawn Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Maple</h3><span class="puppy-price">$2,200</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 10 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Female &nbsp;·&nbsp; <strong>Weight:</strong> 13 lbs</p>
+            <p class="puppy-desc">Fawn · Sweet, cuddly, follows her littermates everywhere</p>
+            <p class="puppy-vax">Up to date (1st round)</p>
+            <button class="btn btn-disabled" type="button" disabled>No Longer Available</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="litter-duke-ruby" class="litter-section litter-section-alt">
+    <div class="wrap">
+      <div class="litter-heading">
+        <div class="litter-parents">
+          <img src="assets/male3.jpg" alt="Duke, the father" loading="lazy">
+          <img src="assets/mom2.png" alt="Ruby, the mother" loading="lazy">
+        </div>
+        <div>
+          <h2>Duke &amp; Ruby's Litter</h2>
+          <p>12 weeks old · Brindle &amp; fawn · Second round of shots complete</p>
+        </div>
+      </div>
+
+      <div class="puppy-grid">
+
+        <article class="puppy-card" data-litter="duke-ruby" data-gender="male" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/box9.jpg" alt="Zeus, a brindle Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Zeus</h3><span class="puppy-price">$2,500</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 12 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 18 lbs</p>
+            <p class="puppy-desc">Brindle · Confident, sturdy, natural leader of the litter</p>
+            <p class="puppy-vax">Up to date (2nd round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Zeus">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="duke-ruby" data-gender="female" data-status="reserved">
+          <div class="puppy-media">
+            <span class="badge badge-reserved">Reserved</span>
+            <img src="assets/box10.png" alt="Luna, a brindle Boxer puppy with white markings" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Luna</h3><span class="puppy-price">$2,500</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 12 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Female &nbsp;·&nbsp; <strong>Weight:</strong> 16 lbs</p>
+            <p class="puppy-desc">Brindle with white markings · Alert, quick learner</p>
+            <p class="puppy-vax">Up to date (2nd round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Luna">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="duke-ruby" data-gender="male" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/boxer9.jpg" alt="Milo, a fawn Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Milo</h3><span class="puppy-price">Contact for price</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 12 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 17 lbs</p>
+            <p class="puppy-desc">Fawn · Laid-back, easygoing, good with other dogs</p>
+            <p class="puppy-vax">Up to date (2nd round)</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Milo">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card status-sold" data-litter="duke-ruby" data-gender="female" data-status="sold">
+          <div class="puppy-media">
+            <span class="badge badge-sold">Sold</span>
+            <img src="assets/boxer7.jpg" alt="Coco, a fawn Boxer puppy" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Coco</h3><span class="puppy-price">$2,500</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 12 weeks &nbsp;·&nbsp; <strong>Gender:</strong> Female &nbsp;·&nbsp; <strong>Weight:</strong> 15 lbs</p>
+            <p class="puppy-desc">Fawn · Playful, food-motivated, quick to train</p>
+            <p class="puppy-vax">Up to date (2nd round)</p>
+            <button class="btn btn-disabled" type="button" disabled>No Longer Available</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="litter-max-daisy" class="litter-section">
+    <div class="wrap">
+      <div class="litter-heading">
+        <div class="litter-parents">
+          <img src="assets/male2.jpg" alt="Max, the father" loading="lazy">
+          <img src="assets/female1.jpg" alt="Daisy, the mother" loading="lazy">
+        </div>
+        <div>
+          <h2>Max &amp; Daisy's Litter</h2>
+          <p>5 months old · Brindle &amp; fawn · Fully vaccinated, past the puppy shots</p>
+        </div>
+      </div>
+
+      <div class="puppy-grid">
+
+        <article class="puppy-card status-sold" data-litter="max-daisy" data-gender="male" data-status="sold">
+          <div class="puppy-media">
+            <span class="badge badge-sold">Sold</span>
+            <img src="assets/5monthsthrd.jpg" alt="Titan, a brindle Boxer at 5 months old" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Titan</h3><span class="puppy-price">Contact for price</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 5 months &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 34 lbs</p>
+            <p class="puppy-desc">Brindle · Bold, energetic, protective instincts emerging</p>
+            <p class="puppy-vax">Fully vaccinated</p>
+            <button class="btn btn-disabled" type="button" disabled>No Longer Available</button>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="max-daisy" data-gender="female" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/5monthsfst.jpg" alt="Nala, a brindle Boxer at 5 months old" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Nala</h3><span class="puppy-price">$1,800</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 5 months &nbsp;·&nbsp; <strong>Gender:</strong> Female &nbsp;·&nbsp; <strong>Weight:</strong> 31 lbs</p>
+            <p class="puppy-desc">Brindle · Already leash-trained, calm around the house</p>
+            <p class="puppy-vax">Fully vaccinated</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Nala">Adopt Me</a>
+          </div>
+        </article>
+
+        <article class="puppy-card" data-litter="max-daisy" data-gender="male" data-status="available">
+          <div class="puppy-media">
+            <span class="badge badge-available">Available</span>
+            <img src="assets/5monthstwo.jpg" alt="Bruno, a brindle Boxer at 5 months old" loading="lazy">
+          </div>
+          <div class="puppy-body">
+            <div class="puppy-title-row"><h3>Bruno</h3><span class="puppy-price">$1,800</span></div>
+            <p class="puppy-meta"><strong>Age:</strong> 5 months &nbsp;·&nbsp; <strong>Gender:</strong> Male &nbsp;·&nbsp; <strong>Weight:</strong> 36 lbs</p>
+            <p class="puppy-desc">Brindle · Confident, house-trained, great on walks</p>
+            <p class="puppy-vax">Fully vaccinated</p>
+            <a href="#" class="btn btn-primary btn-adopt" data-adopt data-puppy-name="Bruno">Adopt Me</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <p class="no-results" id="noResults" hidden>No puppies match those filters right now — try clearing them or check back soon.</p>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>&copy; <span id="year"></span> Fawnfield Boxers. Every puppy deserves a couch to ruin.</p>
+    <a href="index.html">Back to home</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
